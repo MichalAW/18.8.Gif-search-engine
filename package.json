@@ -8,8 +8,7 @@
         "test:html": "globstar nu-html-checker *.html",
         "test:echo": "echo \"Error: no test specified\" && exit 1",
         "start:project": "npm install && npm-run-all init:*",
-        "start:nodemon": "nodemon index.js",
-        "start:node": "node js/app.js",
+        "start:server": "http-server",
         "init:dirs": "mkdirp sass css vendor images js",
         "init:files": "touch README.md index.html sass/style.scss js/script.js",
         "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
@@ -37,6 +36,7 @@
         "autoprefixer-cli": "^1.0.0",
         "browser-sync": "^2.26.3",
         "globstar": "^1.0.0",
+        "http-server": "^0.11.1",
         "node-sass": "^4.11.0",
         "onchange": "^5.2.0"
     },

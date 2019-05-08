@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en EN">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>18.8.Gif search engine by Michael Wanta</title>
+        <link rel="stylesheet"href="/style">
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+        <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+        <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+        <!-- We can not import the Search or Gif module into the App module. For this reason, our components must be defined globally -->
+        <script>
+            var App, Search, Gif
+        </script>
+        <script type="text/babel" src="components/Search.js"></script>
+        <script type="text/babel" src="components/Gif.js"></script>
+        <script type="text/babel" src="components/App.js"></script>
+        <script type="text/babel" src="script.js"></script>
+    </body>
+</html>
