@@ -1,3 +1,5 @@
+var GIPHY_API_URL = 'https://api.giphy.com';
+var GIPHY_PUB_KEY = '2qXggAo5zLivyMCKhqI3ltgXuuWuptTr';
 App = React.createClass({
 // The App download gif,so it needs information about what phrase to search,so we need 'searchingText' key that we must receive from the 'Search' component
     getInitialState() {
