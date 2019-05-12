@@ -5,9 +5,7 @@ var styles = {
 };
 
 Gif = React.createClass({
-    
-// It returns the address to the page with the downloaded image or to the gifa signaling the loading 
-// (if it does not find the first one):
+
     getUrl: function() {
         return this.props.sourceUrl || GIPHY_LOADING_URL;
     },
