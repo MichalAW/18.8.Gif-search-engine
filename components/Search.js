@@ -26,7 +26,7 @@ Search = React.createClass({
             maxWidth: '350px'
         };
 
-        return 
+        return (
                 <label
                     htmlFor="searchText"
                 />,
@@ -40,5 +40,6 @@ Search = React.createClass({
                     style={styles}
                     value={this.state.searchTerm}
                 />
+        );
     }
 });
