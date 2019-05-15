@@ -27,6 +27,7 @@ Search = React.createClass({
         };
 
         return (
+            <label htmlFor="searchText">Enter text:</label>
             <input
                 type="text"
                 id="searchText"
