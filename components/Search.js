@@ -27,18 +27,15 @@ Search = React.createClass({
         };
 
         return (
-                <label htmlFor="searchText">
-                    search:
-                    <input
-                        type="text"
-                        id="searchText"
-                        onChange={this.handleChange}
-                        onKeyUp={this.handleKeyUp}
-                        placeholder="Enter the search phrase here"
-                        style={styles}
-                        value={this.state.searchTerm}
-                    />
-                </label>
+            <input
+                type="text"
+                id="searchText"
+                onChange={this.handleChange}
+                onKeyUp={this.handleKeyUp}
+                placeholder="Enter the search phrase here"
+                style={styles}
+                value={this.state.searchTerm}
+            />
         );
     }
 });
